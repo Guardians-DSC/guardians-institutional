@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguardians_institutional=self.webpackChunkguardians_institutional||[]).push([[1698],{3402:t=>{t.exports=JSON.parse('{"permalink":"/guardians-institutional/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
