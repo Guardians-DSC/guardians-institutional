@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'guardians', // Usually your GitHub org/user name.
+  organizationName: 'Guardians-DSC', // Usually your GitHub org/user name.
   projectName: 'guardians-institutional', // Usually your repo name.
   trailingSlash: false,
 
