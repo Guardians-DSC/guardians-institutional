@@ -1,4 +1,10 @@
-# Website
+# Guardians Institucional
+
+## Como contribuir
+
+Leia o [CONTRIBUTING.md](CONTRIBUTING.md) para saber como contribuir com o projeto.
+
+## Como rodar o projeto
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
@@ -26,16 +32,18 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
+O site é hospedado no [Github Pages](https://pages.github.com/) e é atualizado automaticamente quando um commit é feito no branch `main`. Para mais informações, leia a [documentação do Docusaurus](https://docusaurus.io/docs/deployment#deploying-to-github-pages) e os workflows de CI/CD no em `.github/workflows/`.
 
-```
+Para fazer o deploy manualmente, execute o seguinte comando:
+
+Usando SSH:
+
+```bash
 USE_SSH=true yarn deploy
 ```
 
-Not using SSH:
+Não usando SSH:
 
-```
+```bash
 GIT_USER=<Your GitHub username> yarn deploy
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
