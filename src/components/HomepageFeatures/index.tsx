@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import { JSX } from 'react/jsx-runtime';
 
 type FeatureItem = {
   title: string;
@@ -10,32 +11,35 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Conheça nossas células de estudo',
+    Svg: require('@site/static/img/undraw_celulas.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        O curso de computação da UFCG incentiva os alunos a serem muitas vezes 
+        autoditadas para com assuntos do seu interesse, o guardians vissa 
+        juntar alunos e professores com interesses em comum para motivar 
+        e impulsionar conhecimento!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Descubra nossos Projetos',
+    Svg: require('@site/static/img/undraw_projetos.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Existem projetos que criam celulas de estudo e celulas de estudo que criam 
+        projetos, conheça o trabalho dos nossos estudantes! 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Leia o blog dos nossos estudantes',
+    Svg: require('@site/static/img/undraw_blog.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Que tal ficar por dentro de como é a rotina da celula de estudos? 
+        Ficar sabendo de detalhes sobre a produção dos projetos? O que será que vem por aí?
+        Saiba Mais no Blog dos Guardians!
       </>
     ),
   },

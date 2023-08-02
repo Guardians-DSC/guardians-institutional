@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Guardians',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Preservando conhecimento',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,12 +74,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Sobre',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/Guardians-DSC/guardians-institutional',
-            label: 'GitHub',
+            label: 'Diretório',
             position: 'right',
           },
         ],
