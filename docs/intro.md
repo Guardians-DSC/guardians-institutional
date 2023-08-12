@@ -2,46 +2,35 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Sobre os Guardians
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Aprenda um pouco mais sobre **O Guaridans UFCG**.
 
-## Getting Started
+## Quem são os Guardians?
 
-Get started by **creating a new site**.
+Somos um grupo de Estudantes em estrutura horizontal que se propõe a realizar atividades de cunho acadêmico com ênfase em em infraestrutura, educação e outras áreas de interesse dos membros.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Qual o nosso nível de atuação?
 
-### What you'll need
+Atividades inclinadas a comunidade da ufcg com a possibilidade de ex-alunos e alunos de outras instituições atenderem a essas atividades ou participarem como convidados.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Quais as atividades que nos propomos a fazer?
 
-## Generate a new site
+- Capacitação de membros em sua área de escolha através de diferentes células de estudos;
+- Promoção de eventos educacionais e capacitadores;
+- Desenvolvimento de projetos em prol da comunidade;
+-  Divulgação e registro de nossas atividades.
 
-Generate a new Docusaurus site using the **classic template**.
+## Qual a nossa Missão?
 
-The classic template will automatically be added to your project after you run the command:
+Incentivar os estudos paralelos em áreas de interesse dos seus membros, promover a prática dos conhecimentos adquiridos e despertar esse interesse em outros alunos buscando agregar conhecimento aos envolvidos e fomentar a comunidade a contribuir com trabalho colaborativo.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Aonde queremos chegar?
+Dar continuidade aos projetos desenvolvidos e  envolver outras instituições de ensino criando assim uma rede de conhecimento compartilhado, melhorando a comunicação de estudantes de diferentes instituições e cursos.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Quais os nosso pricipais Valores?
+- Curiosidade;
+- Iniciativa;
+- Cooperação.
+- Inclusão
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
